@@ -1,0 +1,25 @@
+git --version
+mkdir git-demo
+cd git-demo
+git init
+echo "Hello Git" > hello.txt
+git add .
+git commit -m "Initial commit"
+git status
+git log
+git remote add origin <repo-link>
+git push -u origin main
+Git comands
+Git init
+Git status
+Git add
+Git commit
+Git remote 
+Git push
+Git clone
+Git branch
+Git checkout
+Git fetch
+Git pull
+Git log
+Git merge
