@@ -1,25 +1,41 @@
+GIT PRACTICAL COMMANDS
+1. Local Repository Setup
 git --version
 mkdir git-demo
 cd git-demo
 git init
+2. Create and Commit File
 echo "Hello Git" > hello.txt
 git add .
 git commit -m "Initial commit"
+3. Check Repository Status
 git status
 git log
-git remote add origin <repo-link>
+________________________________________
+4. Connect to GitHub Repository
+git remote add origin https://github.com/your-username/repo-name.git
+5. Push Code to GitHub
+git branch -M main
 git push -u origin main
-Git comands
-Git init
-Git status
-Git add
-Git commit
-Git remote 
-Git push
-Git clone
-Git branch
-Git checkout
-Git fetch
-Git pull
-Git log
-Git merge
+________________________________________
+6. Clone Repository (Run in different folder)
+git clone https://github.com/your-username/repo-name.git
+________________________________________
+7. Fetch and Pull Updates
+git fetch
+git pull
+________________________________________
+8. Branching Commands
+git branch new-branch
+git checkout new-branch
+________________________________________
+9. Merge Branch
+git checkout main
+git merge new-branch
+________________________________________
+10. Additional Useful Commands
+git status
+git log
+________________________________________
+Screenshot Proof Command
+echo "Your Name"
